@@ -20,6 +20,7 @@ for line in inp_text_handler.splitlines():
 for player in ATP_data_list:
     player = player.replace('[', '').replace(']', '').replace("'", '').replace(" ", '').split(',') #works
     # Creates one dataset where all items have the same data.
+    # interesting_data = Ranking, FirstName, Lastname, Country, CareerPrizeMoney
     interesting_data = (player[0], player[1], player[2], player[3], int(player[-1]))
     Analysis_ATP_data_list.append(interesting_data)
 

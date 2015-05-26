@@ -6,7 +6,7 @@ and [Country Transparency Index](http://www.transparency.org/research/cpi/overvi
 
 In order to be ranked, a player must compete professionally at least once in a calendar year.
 
-The ATP releases weekly rankings: [www.atpworldtour.com/Rankings/](www.atpworldtour.com/Rankings/).
+The ATP releases weekly rankings: www.atpworldtour.com/Rankings/
 
 Each player in the ranking list has his own clickable URL. The script fetches the whole list and iterates over each of
 the players, using the URL to fetch the following common data points: Ranking #, First Name, Last Name, Country, Career-Prize-Money.
